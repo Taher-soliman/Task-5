@@ -1,0 +1,406 @@
+body{
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+*{
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+/* aside start */
+aside{
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.navtopsection{
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.navcontainer p{
+    font-family: "Raleway", sans-serif;
+    color: #757575;
+    font-size: 16px;
+}
+.navcontainer h3{
+    font-family: "Raleway", sans-serif;
+}
+.avatar{
+    width: 35%;
+    height: 120px;
+}
+.avatarimg{
+    width: 45%;
+    border-radius: 4px;
+}
+.navlinks{
+    font-size: 16px;
+}
+.navcontainer ul{
+    list-style: none;
+    margin-inline-start: 0px;
+}
+.navcontainer a{
+    text-decoration: none;
+    font-weight: 100;
+    display: block;
+    margin: 10px 0;
+    padding: 5px 20px;
+    color: black;
+}
+.navcontainer a:hover{
+    background-color: #eee;
+    color: black !important;
+}
+.portofoliolink{
+    color: #009688 !important;
+}
+.navlinks i{
+    margin-right: 15px;
+}
+.navicons{
+    margin-left: 20px;
+}
+.navicons>i:hover{
+    opacity: .6;}
+/* aside ends */
+
+/* Left side */
+.leftside{
+    float: right;
+    width: 75%;
+    background-color:#eee;
+}
+.leftsidecontainer{
+    margin: 0 10px;
+}
+/* Header */
+header{
+    margin-left: 10px;
+}
+header div span{
+    font-size: 16px;
+    margin-right: 10px;
+}
+header hr{
+    border: 3px solid #ccc;
+}
+.all{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+}
+.button{
+    background-color: white;
+    border: none;
+    padding: 8px 20px;
+}
+.button i{
+    color: black;
+    margin-right: 12px;
+}
+button:hover{
+    background-color: #ccc;
+    color: black;
+}
+/* Header Ends */
+
+/* img section start */
+.cards{
+    width: 33.333%;
+    float: left;
+}
+.child{
+    margin: 10px;
+    background-color: white;
+}
+.child img{
+    width: 100%;
+}
+.child img:hover{
+    opacity: .8;
+}
+.child p{
+    padding: 15px;
+}
+.child h3{
+    padding: 0 15px;
+    margin-top: 10px;
+}
+/* img section ends */
+
+/* links start */
+.links{
+    text-align: center;
+}
+.one{
+    background-color: black;
+    color: white !important;
+}
+.one:hover{
+    background-color: #ccc !important;
+    color: black !important;
+}
+.links a{
+    text-decoration: none;
+    padding: 8px 10px;
+    color: black;
+}
+.links .defult:hover{
+    background-color: black;
+    color: white;
+}
+/* links ends */
+
+/* second img section start */
+.second-section >div{
+    width: 50%;
+    float: left;
+}
+.childcard{
+    padding: 10px;
+}
+.childcard img{
+    width: 100%;
+    height: 300px;
+}
+/* second img section ends */
+
+/* about me section start */
+.aboutme{
+    margin-left: 10px;
+}
+/* about me section ends */
+
+/* Technical Skills start */
+.technicalskills{
+    margin-left: 10px;
+}
+.fullwidthdiv{
+    width: 100%;
+    background-color: darkgray;
+}
+.photographyskill{
+    width: 95%;
+    background-color: #616161;
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+}
+.webskill{
+    width: 85%;
+    background-color: #616161;
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+}
+.photoshopskill{
+    width: 80%;
+    background-color: #616161;
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+}
+.resumebutton{
+    width: 20%;
+    background-color:#616161;
+    color: white;
+    margin-top: 25px;
+    padding: 15px 0;
+    border: none;
+}
+.resumebutton i{
+    padding-right: 15px;
+}
+.resumebutton:hover{
+    background-color:lightgrey;
+    color: black;
+}
+/* Technical Skills ends */
+
+/* sharge section start */
+.charge{
+    margin-left: 10px;
+}
+.charge h3{
+    margin-bottom: 0;
+}
+.basic{
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    opacity: .6;
+}
+.basic:hover{
+    opacity: 1;
+}
+.basic ul{
+    border: 1px solid #ddd;
+}
+.basic ul li{
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+}
+.bigbasic{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+}
+.bigpro{
+    background-color: #009688;
+    color: white;
+    padding: 40px 0;
+}
+.normal{
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+}
+.price{
+    background-color: white;
+    padding: 25px 0;
+}
+.price h2{
+    margin: 5px 0;
+}
+.per{
+    color: gray;
+}
+.signupbutton{
+    padding: 25px 0;
+}
+.signupbutton button{
+    background-color: #009688;
+    border: hidden;
+    color: white;
+    padding: 15px 30px;
+}
+.signupbutton button:hover{
+    background-color: black;
+    color: white;
+}
+.prochild{
+    margin: 0 10px;
+}
+/* sharge section ends */
+
+/* Contact Me section Start */
+.contactme{
+    background-color: #9e9e9e;
+}
+.contactmecontainer{
+    padding: 20px;
+}
+.contactmecontainer h3{
+    margin-top: 0;
+}
+.icons div{
+    width: 33.333%;
+    float: left;
+    background-color: #616161;
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border: 0;
+}
+.submit{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.submit i{
+    margin-right: 15px;
+}
+.submit:hover{
+    background-color: #ccc;
+    color: black;
+}
+.Chicago{
+    background-color:#009688 !important ;
+}
+/* Contact Me section ends */
+
+/* footer start */
+footer{
+    background-color: #616161;
+    float: left;
+    padding-bottom: 20px;
+}
+.footercontainer{
+    padding: 30px 25px;
+}
+.footercontainer>div{
+    width: 33.333%;
+    float: left;
+    color: white;
+}
+.footer p{
+    font-size: 16px;
+}
+.blogposts>div{
+    position: relative;
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+}
+.blogposts>div:hover{
+    background-color: rgb(235, 235, 235);
+}
+/* blog posts */
+.linkimg{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.workshop{
+    width: 100%;
+}
+.words{
+    color: white;
+    width: 80%;
+    position:absolute;
+    top: 15px;
+    left: 70px;
+}
+/* tags */
+.tags >div{
+    margin-left: 20px;
+}
+.tags span{
+    display: inline-block;
+    background-color: #9e9e9e;
+    color:black;
+    padding: 0 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.travel{
+    display: inline-block;
+    background-color: black !important;
+    color:white !important;
+    padding: 0 5px;
+    margin-bottom: 5px;
+}
+/* footer ends */
+.ednoftask{
+    padding: 30px 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.ednoftask a{
+    color:white ;
+}
+/* End of task */
